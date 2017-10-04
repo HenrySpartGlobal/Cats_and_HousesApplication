@@ -11,7 +11,7 @@ c2 = Cat.create!(name: "Garfield", age: 6)
 
 
 h1 = House.create!(name: "House One", size: 5)
-h2 = House.create!(name: "Ollie Holden", size: 92)
+h2 = House.create!(name: "House Two", size: 2)
 
 
 CatsHouseProject.create!(cat_id: c1.id, house_id: h2.id)
